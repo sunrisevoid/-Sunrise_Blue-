@@ -1,0 +1,1000 @@
+  932  tmux new
+  933  exit
+  934  exit
+  935  tmux new
+  936  exit
+  937  epy Documents/Books/AtBS.epub 
+  938  exit
+  939  tmux new
+  940  exit
+  941  vim
+  942  vimtutor
+  943  cd Codelearn
+  944  lsd
+  945  cd Python
+  946  lsd
+  947  cd ../../..
+  948  lsd
+  949  cd james_holton/
+  950  cd Codelearn/
+  951  cd Python/
+  952  cd AtBS/
+  953  lsd
+  954  vim Practice1.py 
+  955  vimtutor
+  956  .vimrc
+  957  cd ~
+  958  less .vimrc
+  959  aerc
+  960  pipx install epy-reader
+  961  epy
+  962  man epy
+  963  epy Documents/Books/AtBS.epub 
+  964  exit
+  965  lnreader
+  966  /.lnreader
+  967  ./lnreader
+  968  lsd -r
+  969  lnreader
+  970  exit
+  971  ./lnreader
+  972  exit
+  973  cd Documents/Smut/
+  974  less preferences 
+  975  exit
+  976  vim Codelearn/Python/AtBS/Practice1.py
+  977  cd ~
+  978  vim Documents/Smut/beatrice.md
+  979  lsd
+  980  cd Documents/
+  981  lsd
+  982  cd Smut/
+  983  lsd
+  984  vim Beatrice.md
+  985  nvim Beatrice.md 
+  986  touch Madeline.md
+  987  nvim Madeline.md 
+  988  exit
+  989  aerc
+  990  gtypist
+  991  sudo apt install tworld
+  992  tworld
+  993  KSokoban
+  994  sudo apt install KSokoban
+  995  sudo apt install gweled
+  996  gweled
+  997  epy Documents/Books/AtBS.epub 
+  998  exit
+  999  cd Codelearn/Python/AtBS/
+ 1000  lsd
+ 1001  clear && python3 Practice.py
+ 1002  clear && python3 Practice1.py
+ 1003  clear && python3 Practice.py
+ 1004  clear && python3 Practice1.py
+ 1005  history
+ 1006  clear && python3 Practice1.py
+ 1007  clear
+ 1008  nvim
+ 1009  exit
+ 1010  aerc
+ 1011  exit
+ 1012  gtypist
+ 1013  exit
+ 1014  aer
+ 1015  aerc
+ 1016  exit
+ 1017  sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+ 1018  sudo apt install xcb-cursor
+ 1019  sudo apt install libxcb-cursor0
+ 1020  sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+ 1021  cd Downloads
+ 1022  sudo dpkg -i pandoc-3.8.3-1-arm64.deb 
+ 1023  sudo dpkg -i pandoc-3.8.3-1-amd64.deb 
+ 1024  sudo apt install ffmpeg
+ 1025  cd ~
+ 1026  rest
+ 1027  reset
+ 1028  aerc
+ 1029  man git
+ 1030  (type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) 	&& sudo mkdir -p -m 755 /etc/apt/keyrings 	&& out=$(mktemp) && wget -nv -O$out https://cli.github.com/packages/githubcli-archive-keyring.gpg 	&& cat $out | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null 	&& sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg 	&& sudo mkdir -p -m 755 /etc/apt/sources.list.d 	&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null 	&& sudo apt update 	&& sudo apt install gh -y
+ 1031  gh auth login
+ 1032  gh repo clone sunrisevoid/Learning_Scratchpad
+ 1033  lsd
+ 1034  man mkdir
+ 1035  mkdir -p ~/github
+ 1036  cd github
+ 1037  gh repo clone sunrisevoid/Learning_Scratchpad
+ 1038  lsd
+ 1039  cd ..
+ 1040  lsd
+ 1041  rm -r Learning_Scratchpad/
+ 1042  git pull
+ 1043  cd github
+ 1044  git pull
+ 1045  cd Learning_Scratchpad/
+ 1046  git pull
+ 1047  git switch main
+ 1048  lsd
+ 1049  nvim Notes.md
+ 1050  git status
+ 1051  cd ..
+ 1052  git status
+ 1053  cd Learning_Scratchpad/
+ 1054  git status
+ 1055  touch README.md
+ 1056  nvim README.md 
+ 1057  git status
+ 1058  git add .
+ 1059  git status
+ 1060  git commit -m "Added README and line in Notes"
+ 1061  git config --global user.email "sunrisevoid@gmx.ru"
+ 1062  git config --global user.name "sunriseVoid"
+ 1063  git commit -m "Added README and line in Notes"
+ 1064  git push
+ 1065  gh auth status
+ 1066  git status
+ 1067  man git
+ 1068  cd ~
+ 1069  rest
+ 1070  reset
+ 1071  npm install -g @google/gemini-cli
+ 1072  sudo npm install -g @google/gemini-cli
+ 1073  gemini
+ 1074  gemini-cli
+ 1075  # 1. Install prerequisites (if not already present)
+ 1076  sudo apt update
+ 1077  sudo apt install curl ca-certificates -y
+ 1078  # 2. Add NodeSource repository for Node.js 20.x
+ 1079  curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+ 1080  # 3. Install Node.js + npm
+ 1081  sudo apt install -y nodejs
+ 1082  # 4. Verify versions (should show ≥20.x)
+ 1083  node -v
+ 1084  npm -v
+ 1085  # Optional: remove old global gemini-cli (ignore errors if not present)
+ 1086  sudo npm uninstall -g @google/gemini-cli
+ 1087  # Then install fresh (no sudo needed if you use user-owned npm global dir, but sudo is ok here)
+ 1088  sudo npm install -g @google/gemini-cli
+ 1089  gemini
+ 1090  lsd
+ 1091  cd -r
+ 1092  lsd -r
+ 1093  cd github/Learning_Scratchpad/
+ 1094  lsd
+ 1095  gemini
+ 1096  aerc
+ 1097  exit
+ 1098  man perl
+ 1099  man cpan
+ 1100  sudo apt update
+ 1101  sudo apt install -y coreutils util-linux sed gawk jq bsdmainutils ncurses-bin
+ 1102  bib gen1 1
+ 1103  chmod u+x ~/Bin/bib
+ 1104  bib gen1
+ 1105  bib heb11 1
+ 1106  bib heb11 1 -n
+ 1107  bibr
+ 1108  man tldr
+ 1109  sudo apt install tldr
+ 1110  vim
+ 1111  nvim
+ 1112  man htop
+ 1113  htop
+ 1114  aerc
+ 1115  bash
+ 1116  aerc
+ 1117  nvim
+ 1118  exit
+ 1119  dsafoiuhewfiuad
+ 1120  dsafoiuhewfiuaddsafoiuhewfiuaddsafoiuhewfiuaddsafoiuhewfiuadfoiuhewfiuaddsafoiuhewfiuafoiuhewfiuaddsafoiuhewfiuafoiuhewfiuaddsafoiuhewfiuahewfiuaddsafoiuhewfiuaddsafoiu
+ 1121  date
+ 1122  cal
+ 1123  df
+ 1124  free
+ 1125  date bibr | less
+ 1126  date bibr
+ 1127  date && bibr
+ 1128  neofetch
+ 1129  neofetch && date && bibr
+ 1130  pwd
+ 1131  cd
+ 1132  ls
+ 1133  pwd
+ 1134  cd /usr/bin
+ 1135  ls
+ 1136  cd ..
+ 1137  ls
+ 1138  cd .. && ls
+ 1139  cd ./bin
+ 1140  lsd
+ 1141  cd ..
+ 1142  cd bin
+ 1143  lsd
+ 1144  cd ~
+ 1145  cd Code_learn
+ 1146  lsd
+ 1147  cd Codelearn
+ 1148  lsd
+ 1149  cd ..
+ 1150  cd Python
+ 1151  cd ./Python
+ 1152  cd Codelearn
+ 1153  lsd -r
+ 1154  cd ..
+ 1155  lsd
+ 1156  lsd -r
+ 1157  lsd -a
+ 1158  cd ~sunrisevoid
+ 1159  lsd
+ 1160  man pandoc
+ 1161  tldr pandoc
+ 1162  reset
+ 1163  ls -l
+ 1164  lsd -l
+ 1165  ls -lt
+ 1166  ls -lt --reverse
+ 1167  ls --human-readable
+ 1168  ls -lt --human-readable
+ 1169  file mdown.md
+ 1170  cd Pictures/
+ 1171  lsd -lt
+ 1172  file tile4.png 
+ 1173  cd ..
+ 1174  cd Downloads/
+ 1175  lsd -lt
+ 1176  file snaptik_7587466
+ 1177  file Adventure.Time.Fionna.and.Cake.S02E10.720p.HEVC.x265-MeGusta\[EZTVx.to\].mkv 
+ 1178  file Carcass\ Crawler\ official\ OSE\ zine\ #06.pdf 
+ 1179  file gridmonger-v1.2.0-win64-setup.exe 
+ 1180  file gweled-1.0-beta1
+ 1181  cd /
+ 1182  lsd
+ 1183  lsd -a
+ 1184  cd proc
+ 1185  lsd
+ 1186  file key-users 
+ 1187  key-users less
+ 1188  key-users |less
+ 1189  less key-users
+ 1190  cd ..
+ 1191  cd usr/bin
+ 1192  lsd
+ 1193  man muffin
+ 1194  file muffin
+ 1195  cd ..
+ 1196  lsd
+ 1197  lsd -a
+ 1198  cd ..
+ 1199  cd var
+ 1200  lsd
+ 1201  cd log
+ 1202  lsd
+ 1203  lsd -lt
+ 1204  file boot.log.4
+ 1205  sudo file boot.log.4
+ 1206  less boot.log.4
+ 1207  sudo less boot.log.4
+ 1208  cd ~
+ 1209  lsd
+ 1210  cd github/Learning_Scratchpad/
+ 1211  aerc
+ 1212  nvim
+ 1213  rm Documents/SoloRPG/Charas
+ 1214  nvim Documents/SoloRPG/Charas.md
+ 1215  cd github/Learning_Scratchpad
+ 1216  lsd
+ 1217  nvim Notes.md 
+ 1218  git commit -m "Added line in Notes"
+ 1219  git add .
+ 1220  git commit -m "Added line in Notes"
+ 1221  git push
+ 1222  gh auth login
+ 1223  git push
+ 1224  gh repo clone sunrisevoid/Learning_Scratchpad
+ 1225  vim Notes.md 
+ 1226  git push
+ 1227  git remote -v
+ 1228  ssh -T git@github.com
+ 1229  ssh -vT git@github.com
+ 1230  git push
+ 1231  cd ~
+ 1232  reset
+ 1233  nvim
+ 1234  $ pipx install roll-cli
+ 1235  pipx install roll-cli
+ 1236  roll 3d6
+ 1237  roll 1d20
+ 1238  roll 1d10
+ 1239  roll 1d6
+ 1240  roll 1d10
+ 1241  roll 3d6
+ 1242  roll 1d6
+ 1243  roll 3d6
+ 1244  roll 1d10
+ 1245  roll 1d6
+ 1246  roll 3d6
+ 1247  roll 1d6
+ 1248  roll 3d6
+ 1249  roll 1d6
+ 1250  roll 3d6
+ 1251  roll 1d6
+ 1252  roll 1d10
+ 1253  roll 1d10 1d10
+ 1254  for run in {1..8}; do roll 1d10; done 
+ 1255  roll 1d20
+ 1256  roll 2d20+10
+ 1257  roll 1d20
+ 1258  nvim
+ 1259  aerx
+ 1260  aerc
+ 1261  calibre
+ 1262  exit
+ 1263  lsd
+ 1264  mv Codelearn CSplayground
+ 1265  lsd
+ 1266  mv CSplayground/
+ 1267  cd CSplayground/
+ 1268  mkdir test{1..4}
+ 1269  lsd
+ 1270  touch test1/file{1..6}.txt
+ 1271  cd test1
+ 1272  lsd
+ 1273  rm file{1..6}.txt
+ 1274  lsd
+ 1275  man touch
+ 1276  touch file1.txt "greetings"
+ 1277  less file1.txt 
+ 1278  vim file1.txt 
+ 1279  rm file1.txt 
+ 1280  lsd
+ 1281  rm greetings
+ 1282  lsd
+ 1283  echo "This is a test line" > file{1..9}.txt
+ 1284  lsd
+ 1285  echo "This is a test line" > file1.txt
+ 1286  lsd
+ 1287  cp file1.txt file2.txt
+ 1288  lsd
+ 1289  vim file2.txt
+ 1290  cp file2.txt file{3..9}.txt
+ 1291  lsd
+ 1292  rm *
+ 1293  lsd
+ 1294  touch file1.txt file2.txt
+ 1295  lsd
+ 1296  vim file1.txt 
+ 1297  rm file2.txt 
+ 1298  cp file1.txt file2.txt
+ 1299  vim file2.txt 
+ 1300  vim file1.txt 
+ 1301  cp -u file1.txt file2.txt
+ 1302  vim file2.txt
+ 1303  rm *
+ 1304  lsd
+ 1305  cd ..
+ 1306  lsd
+ 1307  touch test1/file{1..9}.txt
+ 1308  cd test1
+ 1309  lsd
+ 1310  cd ..
+ 1311  cp test1 test2
+ 1312  cp test1 -r test2
+ 1313  cd test2
+ 1314  lsd
+ 1315  cd test1/
+ 1316  lsd
+ 1317  cd..
+ 1318  cd ..
+ 1319  rm -r test1
+ 1320  lsd
+ 1321  cd ..
+ 1322  cp test1/* test2
+ 1323  cd test2
+ 1324  lsd
+ 1325  cd ..
+ 1326  lsd
+ 1327  tree
+ 1328  lsd
+ 1329  cd Python/
+ 1330  lsd
+ 1331  cd AtBS/
+ 1332  lsd
+ 1333  vim Notes.md
+ 1334  vim Notes.md 
+ 1335  cd ../..
+ 1336  lsd
+ 1337  mv test2/file1.txt file3.txt file5.txt file7.txt test3
+ 1338  cd test2
+ 1339  ls
+ 1340  cd ..
+ 1341  mv test2/file3.txt file5.txt file7.txt test3
+ 1342  tree
+ 1343  mv test2/file[579].txt test3
+ 1344  tree
+ 1345  mv test1/file[!2468].txt test4
+ 1346  tree
+ 1347  mv test1/file*.txt test1/text*.txt
+ 1348  sudo apt install rename
+ 1349  rename test1/file*.txt test1/text*.txt
+ 1350  man rename
+ 1351  file-rename test1/file*.txt test1/text*.txt
+ 1352  ls -r file1.txt
+ 1353  ls -r */file1.txt
+ 1354  ls -r */file[1..3].txt
+ 1355  ls -l -r */file[1..3].txt
+ 1356  lsd -l -r */file[1..3].txt
+ 1357  lsd -l -r */file[1..3].txt | thefirst3.txt
+ 1358  lsd -l -r */file[1..3].txt | less
+ 1359  lsd -l -r */file[1..3].txt | vim
+ 1360  lsd -lr */file[1..3].txt | less
+ 1361  ls
+ 1362  cd Python/
+ 1363  lsd
+ 1364  cd AtBS/
+ 1365  lsd
+ 1366  lsd -l 
+ 1367  lsd -lh 
+ 1368  lsd -l -h 
+ 1369  cd ~
+ 1370  lsd
+ 1371  cd Downloads
+ 1372  lsd
+ 1373  lsd -lh *mp4
+ 1374  lsd -l *mp4
+ 1375  ls -l *mp4
+ 1376  ls -lh *mp4
+ 1377  cd ..
+ 1378  lsd
+ 1379  cd CSplayground/
+ 1380  lsd
+ 1381  rm -r test*
+ 1382  lsd
+ 1383  mkdir dir{1..5}
+ 1384  lsd
+ 1385  cp /etc/passwd .
+ 1386  lsd
+ 1387  vim passwd
+ 1388  ls -l
+ 1389  cp -v /etc/passwd .
+ 1390  cp -vi /etc/passwd .
+ 1391  mv -v passwd fun
+ 1392  man df
+ 1393  df -h
+ 1394  sudo pacman -Sc
+ 1395  df -h
+ 1396  bibr
+ 1397  ln fun fun-hard
+ 1398  lsd
+ 1399  lsd -l
+ 1400  ls -l
+ 1401  ln fun dir1/fun-hard
+ 1402  ls -l
+ 1403  ln fun dir2/fun-hard
+ 1404  ls -l
+ 1405  ls -li
+ 1406  man lsd
+ 1407  man ls
+ 1408  ln -s fun fun-sym dir1/fun-syn dir2/fun-syn
+ 1409  lsd
+ 1410  ln -s fun fun-sym
+ 1411  lsd
+ 1412  less fun-sym
+ 1413  ls -l
+ 1414  ls -li
+ 1415  ln -s fun dir1/fun-sym
+ 1416  ln -s fun dir2/fun-sym
+ 1417  ln -s fun dir{3..5}/fun-sym
+ 1418  tree
+ 1419  ls -li /dir1
+ 1420  lsd
+ 1421  ls -li ./dir1
+ 1422  ls -lh ./dir1
+ 1423  ls -rli
+ 1424  ls -rl
+ 1425  ls
+ 1426  ls -l
+ 1427  ls -l -r
+ 1428  ls -r
+ 1429  ls
+ 1430  tree
+ 1431  ls -r
+ 1432  lsd -r
+ 1433  lsd -r .
+ 1434  lsd -r dir1
+ 1435  man ls
+ 1436  lsd -R
+ 1437  lsd -Ri
+ 1438  lsd -Rl
+ 1439  rm -v fun-hard
+ 1440  lsd -l
+ 1441  rm -i fun
+ 1442  cd dir1
+ 1443  lsd
+ 1444  ls -l
+ 1445  fun-hard
+ 1446  less fun-hard
+ 1447  less fun-sym
+ 1448  lsd
+ 1449  cd ..
+ 1450  lsd -l
+ 1451  rm fun-sym
+ 1452  tree
+ 1453  rm dir1-sym
+ 1454  rm dir1/sym
+ 1455  rm dir1/fun-sym
+ 1456  rm -r .
+ 1457  lsd
+ 1458  cd ..
+ 1459  rm /CSplayground/.
+ 1460  lsd
+ 1461  rm ./CSplayground/*
+ 1462  rm -r ./CSplayground/*
+ 1463  lsd
+ 1464  cd CSplayground/
+ 1465  lsd
+ 1466  cd ..
+ 1467  cd Desktop/Games
+ 1468  ls -l
+ 1469  less Balatro.desktop 
+ 1470  less brogue.desktop 
+ 1471  vim brogue.desktop 
+ 1472  cd ~
+ 1473  cd github/Learning_Scratchpad/
+ 1474  lsd
+ 1475  ls -r
+ 1476  ls -R
+ 1477  ls -a
+ 1478  clear
+ 1479  vim history
+ 1480  history | vim
+ 1481  1u
+ 1482  history | less
+ 1483  gh auth login
+ 1484  history | less
+ 1485  git commit
+ 1486  git add
+ 1487  git add .
+ 1488  lsd
+ 1489  ls -a
+ 1490  git rm --cached Learning_Scratchpad
+ 1491  git rm -f --cached Learning_Scratchpad
+ 1492  lsd
+ 1493  git pull
+ 1494  ls -l
+ 1495  cd Learning_Scratchpad/
+ 1496  lsd
+ 1497  lsd -a
+ 1498  cd ..
+ 1499  rm -r Learning_Scratchpad/
+ 1500  lsd
+ 1501  vim Notes.md 
+ 1502  cd ..
+ 1503  lsd
+ 1504  ls -a
+ 1505  git pull
+ 1506  cd Learning_Scratchpad/
+ 1507  nvim Notes.md 
+ 1508  cd github/
+ 1509  gh repo clone sunrisevoid/Learning_Scratchpad
+ 1510  lsd
+ 1511  ls -a
+ 1512  cd Learning_Scratchpad/
+ 1513  lsd -a
+ 1514  nvim Notes.md
+ 1515  lsd
+ 1516  vim Notes.md
+ 1517  vim Notes_Terminal.md 
+ 1518  man git
+ 1519  git commit
+ 1520  git add Notes.md Notes_Terminal.md
+ 1521  git commit
+ 1522  git push
+ 1523  man git
+ 1524  man git-commit
+ 1525  vim Notes_Terminal.md 
+ 1526  git add Notes_Terminal.md
+ 1527  git -m <'Adding a line to Terminal Notes'> commit
+ 1528  git-commit -m <'Adding a line to Terminal Notes'>
+ 1529  git commit 
+ 1530  git commit -m "Adding a line to Terminal Notes"
+ 1531  git push
+ 1532  $ pipx install evernote-backup
+ 1533  pipx install evernote-backup
+ 1534  evernote-backup init-db
+ 1535  evernote-backup sync
+ 1536  mkdir evernote
+ 1537  lsd
+ 1538  evernote-backup export evernote/
+ 1539  cd evernote
+ 1540  lsd
+ 1541  cd personal
+ 1542  tree
+ 1543  cd ~
+ 1544  [200~sudo apt update
+ 1545  sudo apt update
+ 1546  sudo apt install alien dpkg-dev debhelper build-essential
+ 1547  cd /Downloads
+ 1548  cd Downloads
+ 1549  sudo alien -d --scripts yarle-evernote-to-md_linux_x86_64.rpm 
+ 1550  sudo dpkg -i yarle-evernote-to-md_6.16.0-2_amd64.deb 
+ 1551  man yarle
+ 1552  lsd
+ 1553  sudo apt install yarle-evernote-to-md_6.16.0-2_amd64.deb 
+ 1554  sudo apt install ulauncher
+ 1555  type ls
+ 1556  type aerc
+ 1557  type nvim
+ 1558  type vim
+ 1559  type type
+ 1560  type mv
+ 1561  type cd
+ 1562  cd /
+ 1563  cd usr/bin/
+ 1564  lsd
+ 1565  less mv
+ 1566  cd ~
+ 1567  which ls
+ 1568  which nvim
+ 1569  which cd
+ 1570  help cd
+ 1571  man cd
+ 1572  cd --help
+ 1573  help mkdir
+ 1574  man mkdir
+ 1575  mkdir --help
+ 1576  man 5 passwd
+ 1577  apropos partition
+ 1578  apropos vim
+ 1579  whatis vim
+ 1580  what is mkdir
+ 1581  whatis mkdir
+ 1582  whatis bash
+ 1583  man bash
+ 1584  info ls
+ 1585  info bash
+ 1586  info ls
+ 1587  info coreutils
+ 1588  cd /usr/share/doc
+ 1589  lsd
+ 1590  clear
+ 1591  test
+ 1592  type test
+ 1593  cd ~
+ 1594  lsd
+ 1595  type foo
+ 1596  alias foo='cd ~; lsd -a'
+ 1597  foo
+ 1598  cd Documents/Notes/
+ 1599  foo
+ 1600  type foo
+ 1601  unalias foo
+ 1602  food
+ 1603  foo
+ 1604  alias
+ 1605  lsd
+ 1606  cd github/Learning_Scratchpad/
+ 1607  lsd
+ 1608  ls -a
+ 1609  git add Notes_Terminal.md 
+ 1610  git commit
+ 1611  git commit -m "Added line regarding alias"
+ 1612  git push
+ 1613  nvim
+ 1614  vim Practice1.py 
+ 1615  lsd
+ 1616  cd github/Learning_Scratchpad/
+ 1617  lsd
+ 1618  python3 HelloWorld.py ; clear
+ 1619  clear;python3 HelloWorld.py
+ 1620  clear
+ 1621  clear;python3 Practice1.py
+ 1622  gemini
+ 1623  clear;python3 Practice1.py
+ 1624  gemini
+ 1625  clear;python3 Practice1.py
+ 1626  gemini
+ 1627  nvim
+ 1628  lsd
+ 1629  cd github/Learning_Scratchpad/
+ 1630  lsd
+ 1631  vim Notes.md
+ 1632  gh add .
+ 1633  git add .
+ 1634  git commit
+ 1635  git commit -m 'Added additional study notes and practice programs'
+ 1636  git push
+ 1637  aerc
+ 1638  exit
+ 1639  aerc
+ 1640  neofetch
+ 1641  aerc
+ 1642  nnn -de
+ 1643  nvim
+ 1644  :q
+ 1645  matrix
+ 1646  cmatric
+ 1647  cmatrix
+ 1648  nvim
+ 1649  tmux
+ 1650  nvim
+ 1651  gtypist
+ 1652  aerc
+ 1653  nnn
+ 1654  sudo apt update
+ 1655  sudo apt install xbanish
+ 1656  xbanish
+ 1657  exit
+ 1658  man xbanish
+ 1659  tldr xbanish
+ 1660  xbanish
+ 1661  man xbanish
+ 1662  xbanish &
+ 1663  nvim
+ 1664  aerc
+ 1665  cd Documents
+ 1666  lsd
+ 1667  cd Notes
+ 1668  lsd
+ 1669  cd file.txt
+ 1670  vim file.txt
+ 1671  clear
+ 1672  cd ~
+ 1673  clear
+ 1674  tmux
+ 1675  nvim
+ 1676  c
+ 1677  tmux new -s
+ 1678  tmux new -s study
+ 1679  tmux c
+ 1680  exit
+ 1681  nnn
+ 1682  tmux
+ 1683  exit
+ 1684  nvim
+ 1685  lsd
+ 1686  cd github/Learning_Scratchpad
+ 1687  git add .
+ 1688  git commit -m 'added some lines'
+ 1689  git push
+ 1690  cd Documents/
+ 1691  lsd
+ 1692  cd ..
+ 1693  lsd
+ 1694  cd github/Learning_Scratchpad/
+ 1695  clear && python3 Practice1.py
+ 1696  exit
+ 1697  xbanish
+ 1698  xbanish +
+ 1699  xbanish &
+ 1700  clear
+ 1701  kitten themes
+ 1702  .conf
+ 1703  cd .conf
+ 1704  lsd
+ 1705  ls -a
+ 1706  cd .config
+ 1707  lsd
+ 1708  cd kitty
+ 1709  lsd
+ 1710  nvim kitty.conf
+ 1711  aerc
+ 1712  cmatrix
+ 1713  nvim kitty.conf
+ 1714  nvim .config/kitty/kitty.conf
+ 1715  xbanish &
+ 1716  clear
+ 1717  where nvim
+ 1718  whereis nvim
+ 1719  which nvim
+ 1720  sudo rm -rf /opt/nvim//nvim
+ 1721  sudo rm -rf /usr/local/bin/nvim
+ 1722  cd /usr/bin/
+ 1723  lsd
+ 1724  less nvim
+ 1725  clear
+ 1726  sudo rm -rf nvim
+ 1727  cd /
+ 1728  cd ~
+ 1729  nvim
+ 1730  sudo apt update
+ 1731  sudo apt remove --purge neovim
+ 1732  clear
+ 1733  sudo apt autoremove
+ 1734  clear
+ 1735  whereis nvim
+ 1736  nvim
+ 1737  which nvim
+ 1738  comman -v nvim
+ 1739  command -v nvim
+ 1740  nvim --version
+ 1741  sudo rm -rf /opt/nvim-linux-x86_64
+ 1742  where is nvim
+ 1743  whereis nvim
+ 1744  sudo snap install nvim --classic
+ 1745  man flatpack
+ 1746  sudo apt install flatpack
+ 1747  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+ 1748  flatpak install flathub io.neovim.nvim
+ 1749  cd ~/Downloads   # or any folder you like
+ 1750  curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.appimage
+ 1751  cd Downloads
+ 1752  lsd
+ 1753  lsd -l
+ 1754  lsd -l -r
+ 1755  mkdir -p ~/.local/bin
+ 1756  mv nvim-linux-x86_64.appimage ~/.local/bin/nvim
+ 1757  nvim
+ 1758  lsd
+ 1759  lsd -a
+ 1760  cd .local
+ 1761  lsd
+ 1762  cd bin
+ 1763  lsd
+ 1764  nvim
+ 1765  chmod u+x nvim-linux-x86_64.appimage
+ 1766  chmod u+x nvim
+ 1767  nvim
+ 1768  clear
+ 1769  cd ~
+ 1770  vim .config/nvim/lua/plugins/cmp.lua
+ 1771  cd .config/nvim
+ 1772  lsd
+ 1773  cd lua
+ 1774  lsd
+ 1775  cd plugins
+ 1776  lsd
+ 1777  touch cmp.lua
+ 1778  nvim cmp.ua
+ 1779  nvim cmp.lua
+ 1780  lsd
+ 1781  rm cmp.lua
+ 1782  touch cmp.lua
+ 1783  vim cmp.lua
+ 1784  cd ~
+ 1785  nvim
+ 1786  gemini
+ 1787  lsd .config/nvim/lua/plugin
+ 1788  cd .config/nvim
+ 1789  lsd
+ 1790  cd lua
+ 1791  lsd
+ 1792  cd plugins
+ 1793  lsd
+ 1794  rm lint.lua 
+ 1795  cd ~
+ 1796  lsd -a
+ 1797  nvim
+ 1798  nvim .config/nvim/.markdownlint-cli2.yaml
+ 1799  nvim .config/nvim/lua/plugins/lint.lua
+ 1800  reset
+ 1801  nvim
+ 1802  nvim .config/nvim/lua/plugins/colors.lua
+ 1803  nvim
+ 1804  nvim .config/nvim/lua/plugins/colors.lua
+ 1805  nvim
+ 1806  tmux
+ 1807  exit
+ 1808  tmux ls
+ 1809  tmux a
+ 1810  cd .config
+ 1811  lsd -a
+ 1812  cd epy
+ 1813  lsd
+ 1814  vim configuration.json 
+ 1815  exit
+ 1816  aerc
+ 1817  tmux ls
+ 1818  tmux a
+ 1819  exit
+ 1820  tmux a
+ 1821  exit
+ 1822  aerc
+ 1823  sudo apt update xiphos
+ 1824  sudo apt install xiphos
+ 1825  sudo apt install bibletime
+ 1826  lsd
+ 1827  cd github
+ 1828  lsd
+ 1829  touch Sunrise_Blue
+ 1830  cd Sunrise_Blue 
+ 1831  lsd
+ 1832  rm Sunrise_Blue 
+ 1833  mkdir -p Sunrise_Blue/{server,analysis,data,tests}
+ 1834  cd Sunrise_Blue
+ 1835  touch README.md
+ 1836  nvim README.md 
+ 1837  gh repo create [Sunrise_Blue] --public --clone
+ 1838  git init
+ 1839  git add .
+ 1840  git commit -m "Uploaded"
+ 1841  git push
+ 1842  git branch -M main
+ 1843  git push -u origin main
+ 1844  clear
+ 1845  git push
+ 1846  git init
+ 1847  git remote add origin https://github.com/sunrisevoid/-Sunrise_Blue-.git
+ 1848  git branch -M main
+ 1849  git push -u origin main
+ 1850  lsd
+ 1851  touch server/{app.py,database.py,models.py,config.py,requirements.txt}
+ 1852  tree
+ 1853  touch analysis/{analyze.py/requirements.txt} && mkdir analysis/reports
+ 1854  lsd
+ 1855  cd analysis/
+ 1856  lsd
+ 1857  ls
+ 1858  cd ..
+ 1859  touch analysis/{analyze.py/requirements.txt}
+ 1860  touch analysis/{analyze.py,requirements.txt} && mkdir analysis/reports
+ 1861  touch data/expenses.db
+ 1862  touch tests/manual_tests.md
+ 1863  tree
+ 1864  lsd
+ 1865  git add .
+ 1866  git commit -m "additional files"
+ 1867  git push
+ 1868  sudo apt-get install qemu-system
+ 1869  clear
+ 1870  sudo apt install bochs
+ 1871  bochs
+ 1872  cd .config
+ 1873  lsd
+ 1874  cd ..
+ 1875  lsd
+ 1876  cd CSplayground/
+ 1877  lsd
+ 1878  touch bochsrc.txt
+ 1879  vim bochsrc.txt 
+ 1880  tmux a
+ 1881  wget https://mega.nz/linux/repo/xUbuntu_24.04/amd64/megasync-xUbuntu_24.04_amd64.deb && sudo apt install "$PWD/megasync-xUbuntu_24.04_amd64.deb"
+ 1882  history | vim
+ 1883  history > vim
+ 1884  history
+ 1885  whereis nvim
+ 1886  sudo mkdir -p /etc/apt/keyrings
+ 1887  sudo curl -L -o /etc/apt/keyrings/syncthing-archive-keyring.gpg https://syncthing.net/release-key.gpg
+ 1888  echo "deb [signed-by=/etc/apt/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing stable-v2" | sudo tee /etc/apt/sources.list.d/syncthing.list
+ 1889  sudo apt-get update
+ 1890  sudo apt-get install syncthing
+ 1891  tmux a
+ 1892  tmux -a
+ 1893  tmux a
+ 1894  man python3
+ 1895  cd github
+ 1896  ls
+ 1897  cd Sunrise_Blue/
+ 1898  ls
+ 1899  cd server
+ 1900  python3 -m venv venv
+ 1901  ls
+ 1902  tree
+ 1903  ls
+ 1904  nnn
+ 1905  source venv/bin/activate
+ 1906  which python
+ 1907  pip install flask
+ 1908  pip freeze > requirements.txt
+ 1909  ls
+ 1910  less requirements.txt 
+ 1911  cd github/Sunrise_Blue/server
+ 1912  source venv/bin/activate
+ 1913  nvim hello.py
+ 1914  flas --app hello.py run
+ 1915  flask --app hello.py run
+ 1916  flask --app hello.py run | less
+ 1917  flask --app hello.py run | vim
+ 1918  flask --app hello.py run | less
+ 1919  clearsexit
+ 1920  sds
+ 1921  sdasdwwd
+ 1922  exit
+ 1923  cd github/Sunrise_Blue/server/
+ 1924  ls
+ 1925  source venv/bin/activate
+ 1926  Flask --app hello.py run
+ 1927  flask --app hello.py run
+ 1928  nvim hello.py
+ 1929  flask --app hello.py run
+ 1930  which python
+ 1931  history > less
