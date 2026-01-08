@@ -18,3 +18,12 @@
 - MarkupSafe: a way to keep text inputs and objects secure and to make sure it doesn't interact with any other code, a safeguard against injection attacks.
 - Werkzeug: A library for WSGI stuff, includes a bunch of useful things.
 Putting on my thinking cap, I think all of this is to make web interfaces a lot easier and with less headaches, big brain stuff.
+
+1. Next I created a simple hello world "server" by making a flask application that displayed "Hello World!" in a web browser; I made a .py file, put some simple python script that "serves" HTML code.
+
+Checkpoint 1 answers:
+
+- Nothing happens.
+- The former is general, the latter is specific.
+- Debug mode shows messages for problems that happen, additionally it updates the server whenever any changes happens, but it leaves the security vulnerable because it can run code from the browser.
+- You can see it still running via the terminal, and also if the server loads on the browser.
