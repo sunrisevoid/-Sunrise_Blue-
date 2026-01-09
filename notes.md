@@ -27,3 +27,10 @@ Checkpoint 1 answers:
 - The former is general, the latter is specific.
 - Debug mode shows messages for problems that happen, additionally it updates the server whenever any changes happens, but it leaves the security vulnerable because it can run code from the browser.
 - You can see it still running via the terminal, and also if the server loads on the browser.
+
+Tests:
+
+- It doesn't start and asks to start with a different port
+- It stops it and it just says "hangup" on terminal 
+- It says it refuses to connect
+
